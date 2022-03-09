@@ -1,0 +1,1 @@
+java -jar RankLib-2.16.jar -train /Users/ljystu/Desktop/triples_train.txt -test /Users/ljystu/Desktop/triples_final_test.txt -ranker 6 -metric2t ERR@10 -metric2T ERR@10 -save mymodel.txt -gmax 4 -shrinkage 0.1
